@@ -58,8 +58,8 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
   body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(#3e71db, #6496ed);
-    /* background: #6496ed; */
+    /* background: linear-gradient(#3e71db, #6496ed); */
+    background: #162c91;
     font-size: 15px;
     line-height: 1.8;
     font-weight: 400;
