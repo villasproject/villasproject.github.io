@@ -5014,13 +5014,13 @@ button.bg-dark:focus {
   border: 1px solid #dee2e6 !important; }
 
 .border-top {
-  border-top: 1px solid #dee2e6 !important; }
+  border-top: 1px solid #8d703b !important; }
 
 .border-right {
   border-right: 1px solid #dee2e6 !important; }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important; }
+  border-bottom: 1px solid #8d703b !important; }
 
 .border-left {
   border-left: 1px solid #dee2e6 !important; }
@@ -7301,7 +7301,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-navbar-light {
   background: transparent !important;
-  position: absolute;
+  position: relative;
   top: 20px;
   left: 0;
   right: 0;
