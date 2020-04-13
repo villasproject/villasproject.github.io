@@ -3569,11 +3569,6 @@ input[type="button"].btn-block {
   .navbar-dark .navbar-nav .nav-link.disabled {
     color: rgba(255, 255, 255, 0.25); }
 
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-  color: rgba(255, 255, 255, 0.25); }
 
 .navbar-dark .navbar-toggler {
   color: black;
@@ -7367,8 +7362,7 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
         padding-left: 15px;
         padding-right: 15px; } }
-  .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #fff !important;}
+  
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: #fff !important;
@@ -7919,7 +7913,7 @@ h1, h2, h3, h4, h5,
     background: #fff;
     position: relative; }
     .room .text h3 {
-      font-size: 22px;
+      font-size: 16px;
       margin-bottom: 5px; }
       .room .text h3 a {
         color: #000000; }
@@ -9134,4 +9128,8 @@ textarea.form-control {
     display: block;
     height: 120px;
  }
+}
+
+.selected{
+  color: gold !important;
 }
