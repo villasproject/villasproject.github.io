@@ -60,7 +60,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     font-family: 'Montserrat', sans-serif;
     /* background: linear-gradient(#3e71db, #6496ed); */
     background: #162c91;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.8;
     font-weight: 400;
     color: gray; }
@@ -104,7 +104,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 0; }
 
 ol ol,
 ul ul,
@@ -7888,7 +7888,7 @@ h1, h2, h3, h4, h5,
       margin-bottom: 30px; } }
   .room .img {
     display: block;
-    height: 300px; }
+    height: 370px; }
   .room .icon {
     width: 60px;
     height: 60px;
@@ -9126,7 +9126,7 @@ textarea.form-control {
 @media (max-width: 575.98px) { 
   .room .img {
     display: block;
-    height: 120px;
+    height: 150px;
  }
 }
 
