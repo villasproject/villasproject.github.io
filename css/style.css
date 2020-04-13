@@ -7894,7 +7894,7 @@ h1, h2, h3, h4, h5,
       margin-bottom: 30px; } }
   .room .img {
     display: block;
-    height: 250px; }
+    height: 300px; }
   .room .icon {
     width: 60px;
     height: 60px;
@@ -7945,9 +7945,9 @@ h1, h2, h3, h4, h5,
       .room .text ul.list li {
         list-style: none;
         color: #000000;
-        font-size: 14px; }
+        font-size: 12px; }
         .room .text ul.list li span {
-          color: #fff; }
+          color: #8d703b; }
 
 .room-img {
   height: 400px;
@@ -9126,4 +9126,12 @@ textarea.form-control {
   font-weight: normal;
   color:#fff;
   opacity:1;
+}
+
+
+@media (max-width: 575.98px) { 
+  .room .img {
+    display: block;
+    height: 150px;
+ }
 }
