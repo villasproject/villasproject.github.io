@@ -63,7 +63,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     font-size: 12px;
     line-height: 1.8;
     font-weight: 400;
-    color: gray; }
+    color: #fff; }
     body.menu-show {
       overflow: hidden;
       position: fixed;
@@ -7189,7 +7189,7 @@ a.text-light:hover, a.text-light:focus {
   color: #dae0e5 !important; }
 
 .text-dark {
-  color: #343a40 !important; }
+  color: black !important; }
 
 a.text-dark:hover, a.text-dark:focus {
   color: #1d2124 !important; }
@@ -7282,7 +7282,6 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: #000000;
   font-weight: 400;
   font-family: "Playfair Display", Arial, serif; }
 
@@ -7418,7 +7417,7 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #fff !important; }
     .ftco-navbar-light.scrolled.awake {
-      margin-top: 0px;
+      display: none;
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
@@ -7944,8 +7943,8 @@ h1, h2, h3, h4, h5,
           color: #8d703b; }
 
 .room-img {
-  height: 400px;
-  margin-bottom: 2em; }
+  height: 500px;
+  margin-bottom: 1em; }
 
 .room-single h2 {
   font-size: 28px; }
@@ -9128,6 +9127,10 @@ textarea.form-control {
     display: block;
     height:170px;
  }
+ .room-img {
+  height: 300px;
+  margin-bottom: 1em;
+}
 }
 
 .selected{
