@@ -4450,6 +4450,7 @@ button.close {
   line-height: 1.5; }
 
 .modal-body {
+  background-color: transparent;
   position: relative;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
@@ -7698,7 +7699,7 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fff;
+    background: transparent;
     border: 1px solid #fff;
     color: #fff; }
     .btn.btn-primary:hover {
@@ -9132,6 +9133,10 @@ textarea.form-control {
 .home_img{
   height: 703px;
 }
+
+.video_img{
+  height:  310px;
+}
 @media (max-width: 575.98px) { 
   .room .img {
     display: block;
@@ -9162,6 +9167,9 @@ textarea.form-control {
     .owl-carousel .owl-dots .owl-dot:after {
       width: 9px;
       height: 9px;
+    }
+    .video_img{
+      height:  180px;
     }
 }
 
