@@ -9137,6 +9137,9 @@ textarea.form-control {
 .video_img{
   height:  310px;
 }
+.footer_font{
+  font-size: 11px;
+}
 @media (max-width: 575.98px) { 
   .room .img {
     display: block;
@@ -9170,6 +9173,9 @@ textarea.form-control {
     }
     .video_img{
       height:  180px;
+    }
+    .footer_font{
+      font-size: 9px;
     }
 }
 
