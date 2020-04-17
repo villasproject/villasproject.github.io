@@ -168,7 +168,7 @@
 
 			if (st > 150) {
 				if ( !navbar.hasClass('scrolled') ) {
-					navbar.addClass('scrolled');	
+					//navbar.addClass('scrolled');	
 				}
 			} 
 			if (st < 150) {
